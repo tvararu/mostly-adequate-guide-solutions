@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "tape test.js | faucet"
+    "test": "tape compose.spec.js | faucet"
   },
   "keywords": [],
   "author": "",
