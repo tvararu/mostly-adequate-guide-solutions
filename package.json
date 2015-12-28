@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "accounting": "^0.4.1",
     "faucet": "0.0.1",
     "ramda": "^0.19.0",
     "tape": "^4.3.0"
