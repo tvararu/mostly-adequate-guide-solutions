@@ -45,3 +45,12 @@ test('sanitizeNames', (assert) => {
 
   assert.end()
 })
+
+test('availablePrices', (assert) => {
+  var input = CARS
+  var output = '$700,000.00, $1,850,000.00'
+
+  assert.deepEqual(E.availablePrices(input), output)
+
+  assert.end()
+})
