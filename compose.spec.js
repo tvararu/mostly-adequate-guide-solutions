@@ -18,3 +18,12 @@ test('isLastInStock', (assert) => {
 
   assert.end()
 })
+
+test('nameOfFirstCar', (assert) => {
+  var input = CARS
+  var output = 'Ferrari FF'
+
+  assert.deepEqual(E.nameOfFirstCar(input), output)
+
+  assert.end()
+})

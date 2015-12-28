@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "tape compose.spec.js | faucet"
+    "test": "tape *.spec.js | faucet"
   },
   "keywords": [],
   "author": "",
