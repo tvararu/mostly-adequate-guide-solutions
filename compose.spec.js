@@ -27,3 +27,12 @@ test('nameOfFirstCar', (assert) => {
 
   assert.end()
 })
+
+test('averageDollarValue', (assert) => {
+  var input = CARS
+  var output = 790700
+
+  assert.deepEqual(E.averageDollarValue(input), output)
+
+  assert.end()
+})
