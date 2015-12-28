@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "tape *.spec.js | faucet"
+    "test": "tape \"*.spec.js\" | faucet"
   },
   "keywords": [],
   "author": "",
