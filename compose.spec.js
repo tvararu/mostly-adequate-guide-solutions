@@ -36,3 +36,12 @@ test('averageDollarValue', (assert) => {
 
   assert.end()
 })
+
+test('sanitizeNames', (assert) => {
+  var input = CARS
+  var output = ['ferrari_ff', 'spyker_c12_zagato', 'jaguar_xkr_s', 'audi_r8', 'aston_martin_one_77', 'pagani_huayra']
+
+  assert.deepEqual(E.sanitizeNames(input), output)
+
+  assert.end()
+})
