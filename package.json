@@ -1,7 +1,8 @@
 {
   "name": "fpjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy peasy FP solutions.",
+  "repository": "https://github.com/tvararu/mostly-adequate-guide-solutions",
   "main": "index.js",
   "dependencies": {
     "accounting": "^0.4.1",
