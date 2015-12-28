@@ -18,3 +18,11 @@ exports.availablePrices = R.compose(
   R.map(R.compose(accounting.formatMoney, R.prop('dollar_value'))),
   R.filter(R.prop('in_stock'))
 )
+
+const append = R.flip(R.concat)
+exports.fastestCar = R.compose(
+  append(' is the fastest'),
+  R.prop('name'),
+  R.last,
+  R.sortBy(R.prop('horsepower'))
+)

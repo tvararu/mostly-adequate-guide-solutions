@@ -54,3 +54,12 @@ test('availablePrices', (assert) => {
 
   assert.end()
 })
+
+test('fastestCar', (assert) => {
+  var input = CARS
+  var output = 'Aston Martin One-77 is the fastest'
+
+  assert.deepEqual(E.fastestCar(input), output)
+
+  assert.end()
+})
